@@ -4,32 +4,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Pradish Dadhania | Landing Page</title>
     <link rel="stylesheet" href="style.css">
-
+    <script defer src="script.js"></script>
 </head>
 
 <body>
     <header>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="portfolio.html">Portfolio</a></li>
-                <li><a href="contact.html">Contact</a></li>
-                <li><a href="about.html">About</a></li>
-            </ul>
+        <nav class="navbar">
+            <div class="container">
+                <a class="brand-logo" href="index.html">Biodata</a>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="achievements.html">Achievements</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="about.html">About</a></li>
+                </ul>
+            </div>
         </nav>
     </header>
 
-    <!-- Main content of the page -->
-    <section>
-        <h1>Welcome to My Website</h1>
-        <h1>Pradish Dadhania</h1>
-        <p>This is a simple website layout with navigation links to various pages like portfolio, contact, and about.</p>
-    </section>
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="container">
+                <h1 class="animate-text">Welcome to My Website</h1>
+                <h2 class="animate-text">Pradish Dadhania</h2>
+                <p class="animate-text">Assistant Professor | Mentor | Tech Enthusiast</p>
+                <a href="achievements.html" class="btn">View Achievements</a>
+            </div>
+        </section>
+
+        <!-- Highlight Section -->
+        <section class="highlights">
+            <div class="container">
+                <div class="card">
+                    <h3>11+ Years</h3>
+                    <p>Experience in Education</p>
+                </div>
+
+                <div class="card">
+                    <h3>Technologies</h3>
+                    <p>UI/UX, Mobile Computing, Salesforce, Cloud</p>
+                </div>
+            </div>
+        </section>
+    </main>
 
     <footer>
-        <p>&copy; 2024 My Website | All rights reserved.</p>
+        <div class="container">
+            <p>&copy; 2024 Pradish Dadhania | All rights reserved.</p>
+        </div>
     </footer>
 </body>
 

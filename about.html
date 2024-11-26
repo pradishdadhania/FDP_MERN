@@ -4,64 +4,66 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Me</title>
+    <title>About - Pradish Dadhania</title>
     <link rel="stylesheet" href="style.css">
-    <style>
-        .bio {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            margin: 20px;
-        }
-        
-        .bio img {
-            border-radius: 50%;
-            margin-right: 20px;
-            width: 150px;
-            height: 150px;
-        }
-        
-        .bio-text {
-            max-width: 600px;
-        }
-        
-        .bio-text h2 {
-            color: #333;
-        }
-        
-        .bio-text p {
-            color: #555;
-        }
-    </style>
 </head>
 
 <body>
     <header>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="portfolio.html">Portfolio</a></li>
-                <li><a href="contact.html">Contact</a></li>
-                <li><a href="about.html">About</a></li>
-            </ul>
+        <nav class="navbar">
+            <div class="container">
+                <a class="brand-logo" href="index.html">MyBio</a>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="achievements.html">Achievements</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
         </nav>
     </header>
 
-    <section>
-        <h1>About Me</h1>
-        <div class="bio">
-            <img src="profile.jpg" alt="Your Profile Picture">
-            <div class="bio-text">
-                <h2>Hi, I'm [Your Name]</h2>
-                <p>I'm a passionate web developer with a love for creating clean, functional, and beautiful websites. I specialize in front-end technologies such as HTML, CSS, and JavaScript, and I enjoy working with back-end technologies as well, including
-                    Node.js and databases.</p>
-                <p>In my spare time, I enjoy learning new programming languages, exploring design trends, and contributing to open-source projects.</p>
+    <main>
+        <section class="about">
+            <div class="container">
+                <h1>About Me</h1>
+                <p>
+                    With over 11 years of experience in the education sector and a strong background in mobile application development, I bring a diverse skill set and a passion for teaching and technology. I am enthusiastic about exploring new technologies and learning
+                    new things every day. Keeping myself updated with the latest advancements allows me to provide relevant and up-to-date knowledge to my students. My expertise lies in user experience (UX) design, object-oriented programming, and mobile
+                    computing. I am committed to creating engaging learning experiences and leveraging technology to enhance education.
+                </p>
+
+                <h2>Experience</h2>
+                <ul>
+                    <li><strong>Assistant Professor</strong>, Sardar Vallabhbhai Patel Institute of Technology, Vasad (10 years 10 months)</li>
+                    <li><strong>Mobile Application Developer</strong>, Balaji Tech (4 years 5 months)</li>
+                </ul>
+
+                <h2>Education</h2>
+                <ul>
+                    <li><strong>Master of Technology (M.Tech.)</strong>, Information Technology</li>
+                    <li><strong>Bachelor of Engineering (BE)</strong>, Information Technology</li>
+                </ul>
+
+                <h2>Skills</h2>
+                <ul class="skills">
+                    <li>User Experience (UX) Design</li>
+                    <li>UX Research</li>
+                    <li>Figma</li>
+                    <li>Object-Oriented Programming (OOP)</li>
+                    <li>HTML</li>
+                    <li>Data Structures</li>
+                    <li>Computer Networking</li>
+                    <li>C</li>
+                    <li>Mobile Computing</li>
+                </ul>
             </div>
-        </div>
-    </section>
+        </section>
+    </main>
 
     <footer>
-        <p>&copy; 2024 My Website | All rights reserved.</p>
+        <div class="container">
+            <p>&copy; 2024 Pradish Dadhania | All rights reserved.</p>
+        </div>
     </footer>
 </body>
 
