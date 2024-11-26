@@ -16,3 +16,13 @@ const obj1 = { a: 1, b: 2 };
 const obj2 = { c: 3, d: 4 };
 const mergedobject = {...obj1, ...obj2 };
 console.log(mergedobject);
+
+//Spread operator:expand elements of array or properties of objects
+//rest operator:collect multiple elements into an array or object
+
+
+//Rest operators in function parameters
+function printNames(...names) {
+    console.log(names);
+}
+printNames('pushpa', 'anusha', 'krishna', 'sushil');
