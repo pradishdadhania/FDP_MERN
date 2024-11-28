@@ -7,16 +7,67 @@
     <title>Contact - Pradish Dadhania</title>
     <link rel="stylesheet" href="style.css">
     <script defer src="script.js"></script>
+    <style>
+        /* Ensure the video background takes up the full screen */
+        
+        .video-background {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            /* Ensures the video covers the full screen */
+            z-index: -1;
+            /* Make sure the video stays behind other content */
+        }
+        /* Container styling for other content */
+        
+        .container {
+            position: relative;
+            z-index: 1;
+            /* Ensures content is above the video */
+            padding: 20px;
+        }
+        /* Basic styling for navbar, footer, and other sections */
+        
+        header,
+        footer {
+            z-index: 1;
+        }
+        
+        .contact-info li {
+            list-style: none;
+            margin: 5px 0;
+        }
+        
+        .social-media {
+            margin-top: 20px;
+        }
+        
+        .social-icon img {
+            width: 24px;
+            height: 24px;
+            margin-right: 10px;
+        }
+    </style>
 </head>
 
 <body>
+    <!-- Video background -->
+    <video class="video-background" autoplay muted loop>
+        <source src="186115-877653483_small.mp4" type="video/mp4">
+        <!-- Fallback for unsupported browsers -->
+        Your browser does not support the video tag.
+    </video>
+
     <header>
         <nav class="navbar">
             <div class="container">
                 <a class="brand-logo" href="index.html">Biodata</a>
                 <ul class="nav-links">
                     <li><a href="index.html">Home</a></li>
-                    <li><a href="achievements.html">achievements</a></li>
+                    <li><a href="achievements.html">Achievements</a></li>
                     <li><a href="contact.html">Contact</a></li>
                     <li><a href="about.html">About</a></li>
                 </ul>
@@ -46,7 +97,7 @@
                         <img src="linkedin.png" alt="LinkedIn"> LinkedIn
                     </a>
                     <a href="https://github.com/pradishdadhania" target="_blank" class="social-icon">
-                        <img src="social-media.png" alt="github"> github
+                        <img src="social-media.png" alt="GitHub"> GitHub
                     </a>
                 </div>
             </div>
